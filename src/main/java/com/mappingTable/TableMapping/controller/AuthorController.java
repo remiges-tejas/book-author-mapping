@@ -11,7 +11,7 @@ import com.mappingTable.TableMapping.service.AuthorService;
 
 import java.util.List;
 
-@CrossOrigin(origins = "https://bookauthorfrontend.vercel.app/") // Allow your frontend URL
+@CrossOrigin(origins = "https://bookauthorfrontend.vercel.app")
 @RestController
 @RequestMapping("/api/v1")
 public class AuthorController {
