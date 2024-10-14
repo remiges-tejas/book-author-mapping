@@ -6,11 +6,12 @@ import org.springframework.web.bind.annotation.*;
 import com.mappingTable.TableMapping.DTO.AuthorDTO;
 import com.mappingTable.TableMapping.DTO.BookDTO;
 import com.mappingTable.TableMapping.model.Author;
+import com.mappingTable.TableMapping.model.Book;
 import com.mappingTable.TableMapping.service.AuthorService;
 
 import java.util.List;
 
-@CrossOrigin
+@CrossOrigin(origins = "http://localhost:5173") // Allow your frontend URL
 @RestController
 @RequestMapping("/api/v1")
 public class AuthorController {
@@ -32,13 +33,16 @@ public class AuthorController {
         return authorService.saveAuthor(author);
     }
 
+
+    // add the book to the respective the author 
+    @PostMapping("/authors/{authorId}/books")
+    public Book addBookToAuthor(@PathVariable Long authorId, @RequestBody BookDTO bookDTO) {
+        return authorService.addBookToAuthor(authorId, bookDTO);
+    }  
+    
+
+}
    
 
 
 
-
-
-
-    
-
-}
