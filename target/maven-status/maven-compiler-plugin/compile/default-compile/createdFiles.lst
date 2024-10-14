@@ -1,0 +1,15 @@
+com/mappingTable/TableMapping/repository/BookRepository.class
+com/mappingTable/TableMapping/model/Employee.class
+com/mappingTable/TableMapping/repository/AuthorRepository.class
+com/mappingTable/TableMapping/controller/AuthorController.class
+com/mappingTable/TableMapping/repository/AdharCardRepository.class
+com/mappingTable/TableMapping/TableMappingApplication.class
+com/mappingTable/TableMapping/model/Adress.class
+com/mappingTable/TableMapping/DTO/BookDTO.class
+com/mappingTable/TableMapping/repository/TableReposititory.class
+com/mappingTable/TableMapping/model/Person.class
+com/mappingTable/TableMapping/model/Book.class
+com/mappingTable/TableMapping/model/Author.class
+com/mappingTable/TableMapping/model/AdharCard.class
+com/mappingTable/TableMapping/DTO/AuthorDTO.class
+com/mappingTable/TableMapping/service/AuthorService.class

@@ -1,0 +1,15 @@
+/home/admin/Documents/TableMapping/src/main/java/com/mappingTable/TableMapping/DTO/AuthorDTO.java
+/home/admin/Documents/TableMapping/src/main/java/com/mappingTable/TableMapping/DTO/BookDTO.java
+/home/admin/Documents/TableMapping/src/main/java/com/mappingTable/TableMapping/TableMappingApplication.java
+/home/admin/Documents/TableMapping/src/main/java/com/mappingTable/TableMapping/controller/AuthorController.java
+/home/admin/Documents/TableMapping/src/main/java/com/mappingTable/TableMapping/model/AdharCard.java
+/home/admin/Documents/TableMapping/src/main/java/com/mappingTable/TableMapping/model/Adress.java
+/home/admin/Documents/TableMapping/src/main/java/com/mappingTable/TableMapping/model/Author.java
+/home/admin/Documents/TableMapping/src/main/java/com/mappingTable/TableMapping/model/Book.java
+/home/admin/Documents/TableMapping/src/main/java/com/mappingTable/TableMapping/model/Employee.java
+/home/admin/Documents/TableMapping/src/main/java/com/mappingTable/TableMapping/model/Person.java
+/home/admin/Documents/TableMapping/src/main/java/com/mappingTable/TableMapping/repository/AdharCardRepository.java
+/home/admin/Documents/TableMapping/src/main/java/com/mappingTable/TableMapping/repository/AuthorRepository.java
+/home/admin/Documents/TableMapping/src/main/java/com/mappingTable/TableMapping/repository/BookRepository.java
+/home/admin/Documents/TableMapping/src/main/java/com/mappingTable/TableMapping/repository/TableReposititory.java
+/home/admin/Documents/TableMapping/src/main/java/com/mappingTable/TableMapping/service/AuthorService.java
