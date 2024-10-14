@@ -10,6 +10,7 @@ import com.mappingTable.TableMapping.service.AuthorService;
 
 import java.util.List;
 
+@CrossOrigin
 @RestController
 @RequestMapping("/api/v1")
 public class AuthorController {
